@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --colorTextos: #000000;
+    --color-text-select: #8b008b;
+    --color-letra: #00008b;
+}
+
+.espacio {
+    height: 700px;
+    background-color: white;
+    background-image: url(../images/imgphp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.granpantalla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.cuadrofrom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: darkblue;
+}
+
+.inputformprin {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+}
+
+.cuadro-bot {
+    border: none;
+    width: 100%;
+}
+
+.btn-envio-acceso {
+    width: 100%;
+    color: darkblue;
+    border-radius: 20px;
+}
+
+.btn-envio-acceso:hover {
+    color: var(--color-text-select);
+    background-color: darkblue;
+    border-radius: 60px;
+}
+
+.padding-inputs {
+    padding: 15px;
+}
+
+form:hover{
+    box-shadow: 5px 5px 10px var(--color-text-select), -5px -5px 10px var(--color-letra);
+}
+
+form{
+    border-radius: 20px;
+    box-shadow: 0 0 6px 0 rgba(225, 225, 225, 0.452);
+}
+
+/*pagina de home*/
+
+.boton {
+    padding: 10px;
+    width: 185px;
+}
+
+.links p{
+    color: black;
+    display: block;
+    padding: 5.9px;
+}
+
+.links{
+    background-color: #f9f9f9;
+    width: 185px;
+    display: none;
+}
+
+.links p:hover{
+    background-color: #f1f1f1;
+}
+
+.desplegable:hover .links{
+    display: block;
+}
+
+
+.red{
+    background-color: var(--color-text-select);
+    color: var(--color-letra);
+}
+
+
+.colortable {
+    color: darkblue;
+    border: solid 2px black;
+    width: 100px;
+}
+
+.colorfila {
+    background-color: white;
+}
+
+.red {
+    background-color: #8b008b;
+}
+
+
+table tr:nth-child(odd) td {
+    background-color: red;
+    color: darkviolet;
+}
